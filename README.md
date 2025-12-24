@@ -1,6 +1,6 @@
 # Mothership
 
-> If you just want to **get started on using the tool**, just skip to [Get started] !
+> If you just want to **get started on using the tool**, just skip to the "Get started" section !
 
 ## How it started
 
@@ -27,7 +27,7 @@ This tool also allows you to
 
 - Not type `python -m venv [project-name]` to initialize a python virtual env and forgetting to `source bin/activate` it when trying to run it
 
-## Get started
+## Get Started
 
 1. Create a folder for your project and cd into it
 2. type this command :
