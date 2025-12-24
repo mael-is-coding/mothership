@@ -1,6 +1,6 @@
 # Mothership
 
-> If you just want to **get started on using the tool**, just skip to -- !
+> If you just want to **get started on using the tool**, just skip to [Get started] !
 
 ## How it started
 
@@ -62,4 +62,4 @@ path="./server_run.bash"
 when="before"
 ```
 
-Now whenever you type `mothership build`, the "linting"'s clang-tidy command will be launched. Same goes for the ./server_run.bash script, that will be launched right before g++ (launched by `mothership run` will be launched.).
+Now whenever you run `mothership build`, the "linting" hook's clang-tidy command will be launched before building. Same goes for the ./server_run.bash script, that will be launched right before g++ (launched by `mothership run`) is launched.
