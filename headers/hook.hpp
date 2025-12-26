@@ -1,21 +1,16 @@
 #ifndef HOOK_HPP
 #define HOOK_HPP
 
-#include <optional>
 #include <string>
+#include "exec_pos.hpp"
 using namespace std;
-
-enum ExecPosition {
-    BEFORE,
-    AFTER
-};
 
 class Hook {
     public:
-        optional<string> name;
-        optional<string> command;
-        optional<string> path;
-        optional<ExecPosition> when;
+        string name;
+        string command;
+        string path;
+        EXEC_POS when;
 };
 
 #endif

@@ -1,6 +1,6 @@
 # Mothership
 
-> If you just want to **get started on using the tool**, just skip to the "Get started" section !
+> If you just want to **get started on using the tool**, just skip to the [Get Started](#get-started) section !
 
 ## How it started
 

@@ -31,7 +31,7 @@ void mothership_init(string project_name, string environment) {
 
     ENVIRONMENT envCode = get_env_code(environment);
 
-    if(envCode == UNKNOWN) {
+    if(envCode == UNKNOWN_ENV) {
         cout << "the specified environment is unknown, please specify either" << endl;
         cout << "'java', 'python', 'cpp'" << endl;
     } else {

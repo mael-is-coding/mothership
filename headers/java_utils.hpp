@@ -3,26 +3,25 @@
 #define JAVA_UTILS_HPP
 
 #include "hook.hpp"
+#include "spaceship_utils.hpp"
 #include "toml.hpp"
-#include <optional>
 #include <vector>
 
 using namespace std;
 
 namespace JavaUtils {
 
-    class Build_Opts {
+    class Build_Opts: Generic_Build_Opts {
         public:
-            optional<vector<Hook>> hooks;
-            optional<string> build_dir;
-            optional<string> path;
+            vector<Hook> hooks;
+            string path;
     };
 
     class Run_Opts {
         public:
-            optional<vector<Hook>> hooks;
-            optional<string> build_dir;
-            optional<string> path;
+            vector<Hook> hooks;
+            string build_dir;
+            string path;
     };
 
     JavaUtils::Build_Opts parseBuildOpts(toml::node_view<toml::node>);

@@ -13,4 +13,10 @@ class Generic_Spaceship {
         int version;
 };
 
+class Generic_Build_Opts {
+    public:
+        string build_dir;
+        string build_path;
+};
+
 #endif

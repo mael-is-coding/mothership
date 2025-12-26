@@ -2,7 +2,7 @@
 #define ENVIRONMENT_HPP
 
 enum ENVIRONMENT {
-    UNKNOWN = 0,
+    UNKNOWN_ENV = 0,
     JAVA,
     CXX,
     PYTHON
